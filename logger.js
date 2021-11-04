@@ -1,9 +1,17 @@
-const config = require('./config');
+function info(message) {
+    console.info(message);
+}
 
-const createMessage = () => {
-    console.log(`Server is listening on port ${ config.APP_PORT }. Env is ${ config.ENV }`);
+function error(message) {
+    console.error(message);
+}
+
+function warning(message) {
+    console.warn(message);
 }
 
 module.exports = {
-    loggerMessage: createMessage,
+    info,
+    error,
+    warning,
 }
