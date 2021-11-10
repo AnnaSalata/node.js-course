@@ -1,0 +1,4 @@
+{"level":"info","message":"Server is listening on port 3000. Env is /Users/asalata/Development/nodeJsCourse/node_modules/.bin/ts-node,/Users/asalata/Development/nodeJsCourse/src/app.ts"}
+{"level":"error","message":"GET request","params":{},"url":"/"}
+{"level":"error","message":"Unhandled rejection","promise":{}}
+{"level":"info","message":"POST request","params":{},"url":"/"}
